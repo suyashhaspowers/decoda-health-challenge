@@ -1,0 +1,6 @@
+fastapi
+supabase
+uvicorn
+pydantic
+openai
+iso8601
