@@ -21,3 +21,4 @@ client/yarn-error.log*
 
 # server
 server/__pycache__
+server/.env

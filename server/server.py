@@ -4,13 +4,16 @@ from supabase import create_client, Client
 from models import Message
 from openai import OpenAI, APIError
 from scheduler import gpt_tools, schedule_appointment
+from dotenv import load_dotenv
 import uvicorn
 import os
+
 
 # Constants
 SUPABASE_URL = "https://iqxsblxordjovkxwebga.supabase.co"
 
-# Need to make these variables private
+# Handle environment variables
+load_dotenv()
 SUPABASE_KEY = os.environ.get('SUPABASE_API_KEY')
 OPEN_AI_KEY = os.environ.get('OPEN_AI_KEY')
 

@@ -4,3 +4,4 @@ uvicorn
 pydantic
 openai
 iso8601
+dotenv
